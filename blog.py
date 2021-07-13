@@ -10,7 +10,7 @@ menu = '''1-show blog.\n
 
 def connect():
     mydb = mysql.connector.connect(
-                                    host="localhost",
+                                    host="mysql",
                                     user="root",
                                     password="",
                                     database="blog"
